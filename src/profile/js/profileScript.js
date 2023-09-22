@@ -97,6 +97,7 @@ if(usuarioJSON&&direccionJSON&&datosPersonalesJSON){
     <div class="buttons">
         <button id="actualizarDatos">Actualizar Datos</button>
         <button id="restaurarDatos">Restaurar Datos</button>
+        <button id="regresarIndex"><a href='../index.html' id="regresarIndex2">Cancelar</a></button>
     </div>`;
 
     

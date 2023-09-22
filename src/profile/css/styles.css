@@ -75,6 +75,17 @@ button#restaurarDatos {
     color: white;
 }
 
+
+button#regresarIndex {
+    background-color: #305acc;
+    color: white;
+} 
+
+button#regresarIndex a{
+    text-decoration: none;
+    color: white;
+} 
+
 button:hover {
     opacity: 0.8;
 }
