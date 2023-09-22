@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrito de Compras</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Carrito de Compras</h1>
+    </header>
+    <main>
+        <section class="carrito">
+            <h2>Mi Carrito</h2>
+            <ul id="listaCarrito">
+                <!-- Artículos del carrito -->
+                <li class="producto" data-id="1">
+                    <span>Producto 1</span>
+                    <span>$20.00</span>
+                    <div class="stock">
+                        <button class="btnDecrementar">-</button>
+                        <input type="text" class="inputStock" value="1">
+                        <button class="btnIncrementar">+</button>
+                    </div>
+                    <button class="btnEliminar">Eliminar</button>
+                </li>
+                <li class="producto" data-id="2">
+                    <span>Producto 2</span>
+                    <span>$15.00</span>
+                    <div class="stock">
+                        <button class="btnDecrementar">-</button>
+                        <input type="text" class="inputStock" value="1">
+                        <button class="btnIncrementar">+</button>
+                    </div>
+                    <button class="btnEliminar">Eliminar</button>
+                </li>
+                <!-- Agregar más artículos aquí -->
+            </ul>
+            <p id="carritoVacio" class="mensajeVacio">
+            </p>
+            <p>Total: <span id="total">$35.00</span></p>
+            <button id="btnPagar" class="btn btn-primary">Pagar con PayPal</button>
+        </section>
+    </main>
+    <footer>
+        <!-- Pie de página (opcional) -->
+    </footer>
+    <script src="js/scripts.js"></script>
+</body>
+</html>

@@ -1,0 +1,123 @@
+/* Estilos generales */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+}
+
+/* Estilos del carrito */
+.carrito {
+  width: 400px;
+  background-color: #f5f5f5;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 20px;
+  text-align: center;
+}
+
+.carrito h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+#listaCarrito {
+  list-style-type: none;
+  padding: 0;
+}
+
+.producto {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.producto span {
+  flex: 1;
+}
+
+.stock {
+  display: flex;
+  align-items: center;
+}
+
+.inputStock {
+  width: 40px;
+  text-align: center;
+  margin: 0 5px;
+  padding: 2px;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+}
+
+.btnDecrementar,
+.btnIncrementar {
+  background-color: #009900;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.btnEliminar {
+  background-color: #ff4500;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  margin-left: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.btnDecrementar:hover,
+.btnIncrementar:hover {
+  background-color: #007700;
+}
+
+.btnEliminar:hover {
+  background-color: #ff3300;
+}
+
+#total {
+  font-weight: bold;
+}
+
+#btnPagar {
+  background-color: #009900;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin-top: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+#btnPagar:hover {
+  background-color: #007700;
+}
